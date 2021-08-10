@@ -11,5 +11,7 @@ Spigot 1.16.5
 💻 For use script, you must download script and execute the command ./<script name>.sh.
 
 ⚠️ Warning, this script is for the moment running only on Debian.
+ 
+ 🆕 Even more features are coming soon!
 
 🥺 Script made by a French person so please be forgiving on the spelling.
