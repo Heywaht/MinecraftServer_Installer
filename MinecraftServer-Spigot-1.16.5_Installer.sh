@@ -9,8 +9,8 @@ wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo 
 sudo add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/
 sudo apt-get update
 sudo apt-get install adoptopenjdk-8-hotspot
-mkdir MinecraftServer1.17
-cd MinecraftServer1.17
+mkdir MinecraftServer1.16.5
+cd MinecraftServer1.16.5
 wget https://download.getbukkit.org/spigot/spigot-1.16.5.jar
 java -Xmx1024M -Xms2048M -jar spigot-1.16.5.jar nogui
 echo "Your minecraft server on 1.16.5 is now running !"
