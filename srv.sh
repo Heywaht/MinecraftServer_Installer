@@ -11,6 +11,7 @@ sudo apt-get update
 sudo apt-get install adoptopenjdk-8-hotspot
 mkdir MinecraftServer1.16.5
 cd MinecraftServer1.16.5
+wget https://raw.githubusercontent.com/Heywaht/mc-rlsrv-1.16.5/main/eula.txt
 wget https://api.pl3x.net/v2/purpur/1.16.5/1171/server.jar
 java -Xmx1024M -Xms1024M -jar server.jar nogui
 echo "Your minecraft server on 1.16.5 is now running !"
