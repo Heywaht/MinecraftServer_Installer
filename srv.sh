@@ -1,6 +1,5 @@
 #!/bin/sh
 echo "The installation of minecraft server 1.16.5 is running !"
-sudo apt-get update
 sudo apt-get install apt-transport-https ca-certificates wget dirmngr gnupg software-properties-common
 wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add -
 sudo add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/
